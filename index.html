@@ -9,32 +9,127 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img class="top-logo" src="images/icons/logo.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Blogs">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Courses">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link"><img src="images/icons/profile.png" alt=""></a>
-                  </li>
-                </ul>
-              </div>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex  align-items-center" href="#"><img class="top-logo" src="images/icons/logo.png" alt=""><h4>Idea</h4></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blogs">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Courses">Courses</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link"><img src="images/icons/profile.png" alt=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="structure mx-auto">
+      <section class="container-fluid top-player">
+        <div class="indoor-items">
+          <h3>Top Player</h3><br>
+         <div class="row">
+           <div class="col-md-4 col-sm-6 player d-flex  align-items-center">
+            <img src="images/players/player-1.png" alt="">
+            <p class="p-3"><strong>John Smith</strong></p>
+           </div>
+           <div class="col-md-4 col-sm-6 player d-flex  align-items-center">
+            <img src="images/players/player-2.png" alt="">
+            <p class="p-3"><strong>Pro Rasel</strong></p>
+           </div>
+           <div class="col-md-4 col-sm-6 player d-flex  align-items-center">
+            <img src="images/players/player-3.png" alt="">
+            <p class="p-3"><strong>Abu Sufian</strong></p>
+           </div>
+           <div class="col-md-4 col-sm-6 player d-flex  align-items-center">
+            <img src="images/players/player-4.png" alt="">
+            <p class="p-3"><strong>Shajedul Karim</strong></p>
+           </div>
+           <div class="col-md-4 col-sm-6 player d-flex  align-items-center">
+            <img src="images/players/player-5.png" alt="">
+            <p class="p-3"><strong>Maruf Ahmed</strong></p>
+           </div>
+           <div class="col-md-4 col-sm-6 player d-flex  align-items-center">
+            <img src="images/players/player-6.png" alt="">
+            <p class="p-3"><strong>Mujahid</strong></p>
+           </div>
+         </div>
+          <div class="border"></div>
+         <div class="indoor-items2">
+           <h3>Top Blog</h3><br>
+           <div class="row">
+             <div class="col-md-6 player-2 d-flex  align-items-center">
+               <img src="images/blogs/blog-1.png" alt="">
+               <div class="p-2"><h5>13 of My Favorite UI/UX Goodies</h5> 
+               <p>By <span>Danny Sapio</span></p></div>
+             </div>
+             <div class="col-md-6 player-2 d-flex  align-items-center">
+               <img src="images/blogs/blog-2.png" alt="">
+               <div class="p-2"><h5>UI cheat sheet: list vs grids</h5>
+               <p>By <span>Tess Gadd</span></p></div>
+             </div>
+           </div>
+            <div class="gap">
+              <div class="row">
+                <div class="col-md-6 player-2 d-flex  align-items-center">
+                  <img src="images/blogs/blog-3.png" alt="">
+                  <div class="p-2"><h5>7 typography tips for interface design</h5>
+                  <p>By <span>Jeremiah Lam</span></p></div>
+                </div>
+                <div class="col-md-6 player-2 d-flex  align-items-center">
+                 <img src="images/blogs/blog-4.png" alt="">
+                 <div class="p-2"><h5>Your logo is copied</h5> 
+                  <p>By <span>Ferdinand Vogler</span></p></div>
+               </div>
+             </div>
             </div>
-          </nav>
-    </div>
+         </div>
+        </div>
+      </section>
+    </main>
+
+    <main class="mx-auto">
+      <section class="container-fluid top-player">
+       <div class="indoor-items">
+        <h3>Latest Courses</h3><br>
+        <div class="row">
+          <div class="col-md-4 down">
+            <img src="images/courses/course-1.png" alt="">
+            <div class="last-door">
+              <h5>React - The Complete Guide 2020</h5>
+              <p>Reed Krakoff.</p>
+              <div class="d-flex align-items-center p-4"><img src="images/icons/star.png" alt=""><img src="images/icons/star.png" alt=""><img src="images/icons/star.png" alt=""><img src="images/icons/star.png" alt=""><img class="last" src="images/icons/star.png" alt=""><p class="different"style="color: grey;">4.5</p></div>
+            </div>
+          </div>
+          <div class="col-md-4 down">
+            <img src="images/courses/course-2.png" alt="">
+            <div class="last-door">
+              <h5>Powerpoint 2020 Master Powerpoint Cour</h5>
+              <p>Walter Scott.</p>
+            </div>
+          </div>
+          <div class="col-md-4 down">
+            <img src="images/courses/course-3.png" alt="">
+            <div class="last-door">
+              <h5>The Complete JavaScript Course 2020</h5>
+              <p>Reed Krakoff.</p>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+    </main>
 
 
 
